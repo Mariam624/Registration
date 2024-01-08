@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Create new account"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="32sp"
         android:layout_gravity="center"
@@ -68,6 +69,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="128dp"
         android:text="Sign in"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="italic" />
 </LinearLayout>

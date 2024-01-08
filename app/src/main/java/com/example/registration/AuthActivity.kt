@@ -31,6 +31,8 @@ class AuthActivity : AppCompatActivity() {
                     Toast.makeText(this, "User $login Log in", Toast.LENGTH_LONG).show()
                     binding.loginAuth.text.clear()
                     binding.passAuth.text.clear()
+                    val intent=Intent(this,ItemsActivity::class.java)
+                    startActivity(intent)
                 } else Toast.makeText(this, "User $login NOT Log in", Toast.LENGTH_LONG).show()
             }
         }
