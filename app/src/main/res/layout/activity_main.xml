@@ -14,7 +14,7 @@
         android:text="Create new account"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:textSize="32sp"
+        android:textSize="35sp"
         android:layout_gravity="center"
         android:layout_marginTop="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,7 +28,9 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:color="@color/black"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:inputType="text"
         android:hint="Enter login"
         />
@@ -39,7 +41,9 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:color="@color/black"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:inputType="textEmailAddress"
         android:hint="Enter email" />
 
@@ -49,7 +53,9 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:color="@color/black"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         android:hint="Enter password" />
 
