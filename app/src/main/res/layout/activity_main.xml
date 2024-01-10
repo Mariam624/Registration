@@ -24,10 +24,13 @@
 
     <EditText
         android:id="@+id/user_login"
-        android:layout_width="220dp"
+        android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:paddingLeft="16dp"
+        android:drawableLeft="@drawable/account_circle"
+        android:background="@drawable/input_bg"
         android:color="@color/black"
         android:textSize="20sp"
         android:textColor="@color/black"
@@ -37,10 +40,13 @@
 
     <EditText
         android:id="@+id/user_email"
-        android:layout_width="220dp"
+        android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:paddingLeft="16dp"
+        android:drawableLeft="@drawable/attach_email"
+        android:background="@drawable/input_bg"
         android:color="@color/black"
         android:textSize="20sp"
         android:textColor="@color/black"
@@ -49,10 +55,13 @@
 
     <EditText
         android:id="@+id/user_pass"
-        android:layout_width="220dp"
+        android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:paddingLeft="16dp"
+        android:drawableLeft="@drawable/password"
+        android:background="@drawable/input_bg"
         android:color="@color/black"
         android:textSize="20sp"
         android:textColor="@color/black"
